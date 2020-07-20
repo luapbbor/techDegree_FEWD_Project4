@@ -3,27 +3,47 @@
 .btn {
   
   @include button;
+
+    &.default{
+      &:hover {
+        @include button-transition;  
+        background-color: lighten($button-default-background, 15%);
+      }
+    }
      
     &.error {
       background-color: $button-error-background;
+      &:hover {
+        @include button-transition;  
+        background-color: lighten($button-error-background, 15%);
+      }
       
     }
     &.info {
       background-color: $button-info-background;
+      &:hover {
+        @include button-transition;     
+        background-color: lighten($button-info-background, 15%);
+      }
     }
 
     &.success {
       background-color: $button-success-background;
+      &:hover {
+        @include button-transition;    
+        background-color: lighten($button-success-background, 15%);
+      }
     }
 
     &.warning {
       background-color: $button-warning-background;
+      &:hover {
+        @include button-transition;     
+        background-color: lighten($button-warning-background, 15%);
+      }
     }
 
-    &:hover {
-      transition: background-color .5s;    
-      background-color: lighten($button-default-background, 15%);
-    }
+    
       
 
   }

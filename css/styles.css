@@ -423,30 +423,54 @@ a {
   border-radius: 5px;
 }
 
-/* line 7, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+/* line 8, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.default:hover {
+  transition: background-color .5s;
+  background-color: #9cecfd;
+}
+
+/* line 14, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
 .btn.error {
   background-color: #e4757a;
 }
 
-/* line 11, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+/* line 16, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.error:hover {
+  transition: background-color .5s;
+  background-color: #f1b5b8;
+}
+
+/* line 22, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
 .btn.info {
   background-color: #927bc1;
 }
 
-/* line 15, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+/* line 24, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.info:hover {
+  transition: background-color .5s;
+  background-color: #bdafd9;
+}
+
+/* line 30, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
 .btn.success {
   background-color: #63cc82;
 }
 
-/* line 19, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+/* line 32, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.success:hover {
+  transition: background-color .5s;
+  background-color: #9ddfb0;
+}
+
+/* line 38, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
 .btn.warning {
   background-color: #fd7856;
 }
 
-/* line 23, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.btn:hover {
+/* line 40, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.warning:hover {
   transition: background-color .5s;
-  background-color: #9cecfd;
+  background-color: #feb4a2;
 }
 
 /* line 1, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_form.scss */
