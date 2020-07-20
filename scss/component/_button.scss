@@ -1,29 +1,30 @@
+@import "../utilities/mixins";
+
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
-  }
   
-  .default {
-    background-color: #51ddfc;
+  @include button;
+     
+    &.error {
+      background-color: $button-error-background;
+      
+    }
+    &.info {
+      background-color: $button-info-background;
+    }
+
+    &.success {
+      background-color: $button-success-background;
+    }
+
+    &.warning {
+      background-color: $button-warning-background;
+    }
+
+    &:hover {
+      transition: background-color .5s;    
+      background-color: lighten($button-default-background, 15%);
+    }
+      
+
   }
-  
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: #927bc1;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
-  }
+ 

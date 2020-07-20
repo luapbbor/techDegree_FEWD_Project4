@@ -1,12 +1,24 @@
+//font colors
 $primary-font-color: #777;
 $headline-primary-color: #58e1c1;
-$link-color: #51ddfc;
+
+
+// buttons
 $button-font-color:  #fff;
 $button-default-background: #51ddfc;
 $button-error-background: #e4757a;
 $button-info-background: #927bc1;
 $button-success-background: #63cc82;
 $button-warning-background: #fd7856;
-$tablet-min-width: 768px;
+
+//borders
 $border-color: #58e1c1;
+$img-border: #ccc;
+
+//links
+$link-hover: #58e1c1;
+$link-color: #51ddfc;
+
+//media
+$break-tablet: 768px;
 

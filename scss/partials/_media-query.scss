@@ -1,19 +1,19 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+
+@include media-tablet {
 
     .container {
       max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include center;
     }
     
     .centered {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include center;
     }
     
     .row {

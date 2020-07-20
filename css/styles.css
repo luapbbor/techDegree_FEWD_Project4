@@ -411,9 +411,10 @@ a {
   border-radius: 5px solid #58e1c1;
 }
 
-/* line 1, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+/* line 3, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
 .btn {
   margin-top: 15px;
+  background-color: #51ddfc;
   width: 100%;
   color: #fff;
   border: none;
@@ -422,29 +423,30 @@ a {
   border-radius: 5px;
 }
 
-/* line 11, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.default {
-  background-color: #51ddfc;
-}
-
-/* line 15, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.error {
+/* line 7, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.error {
   background-color: #e4757a;
 }
 
-/* line 19, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.info {
+/* line 11, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.info {
   background-color: #927bc1;
 }
 
-/* line 23, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.success {
+/* line 15, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.success {
   background-color: #63cc82;
 }
 
-/* line 27, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
-.warning {
+/* line 19, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn.warning {
   background-color: #fd7856;
+}
+
+/* line 23, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_button.scss */
+.btn:hover {
+  transition: background-color .5s;
+  background-color: #9cecfd;
 }
 
 /* line 1, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_form.scss */
@@ -566,17 +568,17 @@ a {
   flex-direction: column;
 }
 
-/* line 8, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
+/* line 10, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
-/* line 19, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
+/* line 23, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -617,14 +619,14 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 6, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/partials/_media-query.scss */
+  /* line 10, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/partials/_media-query.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 13, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/partials/_media-query.scss */
+  /* line 15, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/partials/_media-query.scss */
   .centered {
     display: block;
     margin-left: auto;

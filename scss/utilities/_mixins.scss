@@ -1,0 +1,23 @@
+@mixin button {
+    margin-top: 15px;
+    background-color: $button-default-background;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+@mixin media-tablet {
+    @media (min-width: $break-tablet) {
+        @content;
+    }
+}
+
+@mixin center {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
