@@ -592,8 +592,8 @@ a {
   flex-direction: column;
 }
 
-/* line 10, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
-.nav-link {
+/* line 7, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
+.nav .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -602,8 +602,8 @@ a {
   transition: background-color 0.2s ease-in-out;
 }
 
-/* line 23, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
-.nav-link:hover {
+/* line 18, E:/paulRobbPortfolio/techDegree_FEWD_Project4/scss/component/_navigation.scss */
+.nav .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
